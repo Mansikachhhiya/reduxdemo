@@ -1,0 +1,65 @@
+.timeline-cells-cell{
+    height: 15px;
+    width: 15px;
+    border: 1px solid #adaaaa;
+    margin: 2px;
+    border-radius: 2px;
+    background-color: #dcdbdb;
+}
+.timeline-cells-cell:hover{
+    border: 1px solid black;
+}
+.timeline-cells{
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 150px;
+}
+.timeline-body{
+ display: flex;
+}
+.timeline-weeks-week{
+    font-size: 10px;
+    height: 15px;
+    margin: 2px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.timeline-weeks{
+        display: inline-flex;
+        flex-direction:column;
+
+}
+.timeline-months{
+    display: inline-flex;
+    padding-left: 25px
+
+}
+.Jan~.Jan ,
+.Sep~.Sep,
+.Oct~.Oct,
+.Nov~.Nov,
+.Dec~.Dec,
+.Feb~.Feb,
+.Mar~.Mar,
+.Apr~.Apr,
+.May~.May,
+.Jun~.Jun,
+.Jul~.Jul,
+.Aug~.Aug{
+    visibility:hidden;
+}
+.timeline-months-month{
+    height: 15px;
+    width:15PX;
+    margin:2PX;
+
+    font-size: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+.timeline{
+    margin: 20px 20px 60px;
+}
+
